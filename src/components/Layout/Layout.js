@@ -113,8 +113,17 @@ const Layout = ({ children, pageContext }) => {
         <ThemeSwitch />
         <GlobalStyle />
         <Helmet>
-          <title>heritsam</title>
+          <title>heritsam [working in progress]</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
+          <meta
+            name="description"
+            content="Data Science Student and Mobile App Developer"
+          />
+          <meta
+            name="keywords"
+            content="Ariq Heritsa, Ariq Heritsa Maalik, Data Science, Student, Mobile App"
+          />
+          <meta name="author" content="Ariq Heritsa" />
         </Helmet>
         <Loader id="loading" className={visibleLoader ? '' : 'inActive'}>
           <div className="load-circle">
@@ -142,8 +151,14 @@ const Layout = ({ children, pageContext }) => {
         <Helmet>
           <title>heritsam [working in progress]</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
-          <meta name="description" content="Data Science Student and Mobile App Developer" />
-          <meta name="keywords" content="Data Science, Student, Mobile App" />
+          <meta
+            name="description"
+            content="Data Science Student and Mobile App Developer"
+          />
+          <meta
+            name="keywords"
+            content="Ariq Heritsa, Ariq Heritsa Maalik, Data Science, Student, Mobile App"
+          />
           <meta name="author" content="Ariq Heritsa" />
         </Helmet>
         <Loader id="loading" className={visibleLoader ? '' : 'inActive'}>

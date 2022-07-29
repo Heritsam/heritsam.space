@@ -448,6 +448,16 @@ const Header = ({ isDark }) => {
                     </a>
                   </li>
 
+                  <li>
+                    <a
+                      className="nav-link"
+                      href="https://medium.com/@heritsam"
+                      target="_blank"
+                    >
+                      blog.
+                    </a>
+                  </li>
+
                   {/* Open contact modal */}
                   {/* <li className="nav-item">
                     <a
@@ -462,10 +472,7 @@ const Header = ({ isDark }) => {
                     </a>
                   </li> */}
                   <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      href="#"
-                    >
+                    <a className="nav-link" href="#">
                       <Contact />
                     </a>
                   </li>
