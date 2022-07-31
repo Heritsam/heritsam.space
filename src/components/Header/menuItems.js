@@ -1,6 +1,5 @@
 export const menuItems = [
   { name: "", label: "home" },
-  { name: "", label: "resume" },
   // {
   //   name: "demos",
   //   label: "creative demos",

@@ -451,6 +451,16 @@ const Header = ({ isDark }) => {
                   <li>
                     <a
                       className="nav-link"
+                      href="https://resume.heritsam.space"
+                      target="_blank"
+                    >
+                      resume.
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      className="nav-link"
                       href="https://medium.com/@heritsam"
                       target="_blank"
                     >
